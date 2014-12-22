@@ -19,3 +19,22 @@ function showBestDay() {
 function showChart() {
   // ...
 }
+
+// http://youtu.be/38H7WpsTD0M?t=15m54s
+// Enhance the form designer
+// Show custom dialogs and sidebars
+function showResponseChart() {
+  var template = HtmlService.createTemplateFromFile('Chart.html');
+  template.votes = getVotesPerDay();
+  
+  var html = template.evaluate()
+    .setTitle('Response Chart')
+    .setWidth(300)
+    .setHeight(125);
+  
+  FormApp.getUi().showDialog(html);
+}
+
+function getVotesPerDay() {
+  // ...
+}
