@@ -1,7 +1,7 @@
-google-appscript-pg
-===================
+google-apps-script-pg
+=====================
 
-Google AppScript Playground
+Google Apps Script Playground
 
 What is Google Apps Script:
 - https://www.youtube.com/watch?v=JJgmU_JUsug
