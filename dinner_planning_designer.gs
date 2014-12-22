@@ -20,6 +20,8 @@ function showChart() {
   // ...
 }
 
+//////////////////////////////////////////////////////////////////////////
+
 // http://youtu.be/38H7WpsTD0M?t=15m54s
 // Enhance the form designer
 // Show custom dialogs and sidebars
@@ -38,3 +40,22 @@ function showResponseChart() {
 function getVotesPerDay() {
   // ...
 }
+
+//////////////////////////////////////////////////////////////////////////
+
+// http://youtu.be/38H7WpsTD0M?t=15m27s
+// Show prompts and alerts
+function showBestDay() {
+  var bestDay = calculateBestDay();
+  
+  var ui = FormApp.getUi();
+  ui.alert('Best Day', 
+    'The best day is: ' + bestDay,
+    ui.ButtonSet.OK);
+}
+
+function calculateBestDay() {
+  // ...
+}
+
+//////////////////////////////////////////////////////////////////////////
