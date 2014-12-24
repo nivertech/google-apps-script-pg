@@ -18,3 +18,4 @@ Demo:
 Collections of usefull scripts / tutorials:
 - http://www.googleappsscript.org/
 - http://www.googleappsscript.org/applications/contactus-form
+- http://www.googleappsscript.org/user-interface/upload-doc
