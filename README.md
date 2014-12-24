@@ -8,3 +8,5 @@ What is Google Apps Script:
 - http://script.google.com/
 - Same as above: http://www.google.com/script/start/
 
+Demo:
+- http://goo.gl/tP8CH
