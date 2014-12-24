@@ -5,9 +5,11 @@ Google Apps Script Playground
 
 What is Google Apps Script:
 - https://www.youtube.com/watch?v=JJgmU_JUsug
+- https://developers.google.com/apps-script/
+
+Apps Script IDE:
 - http://script.google.com/
 - Same as above: http://www.google.com/script/start/
-- https://developers.google.com/apps-script/
 
 
 Demo:
